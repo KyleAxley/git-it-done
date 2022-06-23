@@ -49,7 +49,6 @@ var displayRepos = function (repos, searchTerm) {
     repoSearchTerm.textContent = searchTerm;
     console.log(repos);
     console.log(searchTerm);
-
     // loop over repos
     for (var i = 0; i < repos.length; i++) {
         // format repo name
